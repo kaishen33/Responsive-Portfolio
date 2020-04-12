@@ -69,26 +69,21 @@ p {
     overflow: auto;
 }
 
-@media screen (max-width: 640px) {
-    .wrapper {margin: 0;}
-    header {height: auto; width: auto;}
-    h1 {float: left; margin: 0; display: block;}
-    .navigate {float: left; margin: 0; width: 100%;}
-    .navigate a {float: left;}
-    input {width: 600px;}
-    textarea {width: 600px;}
+@media only screen and (max-width: 980px) {
+    .main-section{
+        width: 70%;
+    }
 }
 
-@media screen (max-width: 768px) {
-    .wrapper {margin: 70px 10px 0 10px; width: 100%;}
-    input {width: 90%;}
-    textarea {width: 90%;}
+@media only screen and (max-width: 768px) {
+    .main-section{
+        width: 100%;
+    }
 }
 
-@media screen (max-width: 980px) {
-    .wrapper {margin:100px 5px; width: 100%;}
-    header {height: 60px}
-    .navigate {width: 100%; float: left; margin: 30px 5px 0 5px;}
-    .navigate a {margin: 15px 0 0 0; padding: 0;}
-    h1 {margin: 0; padding: 0; float: left;}
-}
+@media only screen and (max-width: 640px) {
+    .picSizeUp {
+        width: 540px;
+        height: 400px;
+    }
+}    
