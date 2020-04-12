@@ -29,7 +29,7 @@ header {
 }
 
 .navigate a:hover {
-    background-color: #4aaaaf;
+    background-color: rgb(69, 151, 189);
     color: white;
 }
 
@@ -66,7 +66,7 @@ p {
     margin: 130px auto;
     font-family: 'PT Sans', sans-serif;
     background-color: rgb(168, 168, 168);
-    overflow: auto;
+    overflow: scroll;
 }
 
 @media only screen and (max-width: 980px) {
