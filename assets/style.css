@@ -61,12 +61,12 @@ p {
 }
 
 .wrapper {
-    width: 960px;
+    width: 50%;
     padding: 20px;
     margin: 130px auto;
     font-family: 'PT Sans', sans-serif;
     background-color: rgb(168, 168, 168);
-    overflow: scroll;
+    overflow: auto;
 }
 
 @media only screen and (max-width: 980px) {
