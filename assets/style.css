@@ -67,16 +67,24 @@ p {
     font-family: 'PT Sans', sans-serif;
     background-color: rgb(168, 168, 168);
     overflow: auto;
+    display: table;
 }
 
+.works-btn img {
+    flex: left;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
 @media only screen and (max-width: 980px) {
-    .main-section{
+    .wrapper{
         width: 70%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .main-section{
+    .wrapper{
         width: 100%;
     }
 }
